@@ -1,0 +1,1010 @@
+body {
+    width: 99%;
+    height: auto;
+    color: #000000;
+    background-color: #a9bcc6;
+    background-size: cover;
+    font-family: "Segoe UI", sans-serif;
+    line-height: 135%;
+}
+
+header{
+    border-bottom: 2px solid white;
+    background-color: #a77c7c;
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    height: 100px;
+    clear: both;
+}
+
+.right{float: right}
+.left{float: left}
+
+/*стили для авторизации*/
+#block-top-auth {
+    border-radius: 10px;
+    width: 350px;
+    height: auto;
+    margin-left: 580px;
+    margin-top: 150px;
+    background-color: #c7cec4;
+    position: absolute;
+    z-index: 99999;
+}
+
+#input-email-pass h3 {
+    font-size:1.5em;
+    font-style: normal;
+    font-family: SansSerif, sans-serif;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #02334a;
+}
+
+#message-auth{
+    font-size:1.2em;
+    font-weight: bold;
+    font-family: SansSerif, sans-serif;
+    padding: 10px;
+    margin-top: 10px;
+    margin-right: 47px;
+    background-color: #d5a08f;
+    border-radius: 5px;
+    color: #cd5c66;
+    display: none;
+}
+
+#input-email-pass > li{
+    list-style-type: none;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+#input-email-pass input#auth_login {
+    width: 250px;
+    height: 30px;
+    font-size:16px;
+    font-family: SansSerif, sans-serif;
+    padding-left: 5px;
+    border: 2px solid #b8e3ea;
+    border-radius: 5px;
+}
+#input-email-pass input:focus{
+    border-color: #513e5c;
+}
+
+#input-email-pass input#auth_pass {
+    width: 250px;
+    height: 30px;
+    font-size:16px;
+    font-family: SansSerif, sans-serif;
+    padding-left: 5px;
+    border: 2px solid #b8e3ea;
+    border-radius: 5px;
+}
+
+#list-auth > li {
+    list-style-type: none;
+    margin-left: 15px;
+    margin-top: 10px;
+    margin-bottom: 1px;
+    font-size:15px;
+    font-family: SansSerif, sans-serif;
+    font-weight: bold;
+}
+
+#list-auth input#remember {
+    margin-left: 5px;
+    color: #02334a;
+}
+
+#list-auth label {
+    color: #02334a;
+}
+
+#button-auth {
+    margin: 10px 100px;
+    width: 150px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size:20px;
+    font-family: SansSerif, sans-serif;
+    padding: 5px;
+    border-radius: 5px;
+    color: #513e5c;
+    background-color: #c7aabc;
+}
+
+#button-auth a{
+    padding: 5px 50px;
+    text-align: center
+}
+
+/*стили для главной страницы*/
+#block-body{
+    width: 1450px;
+    margin: 5px auto;
+    background-color: white;
+    border: 3px solid #c7aabc;
+}
+
+#block-header{
+    width: 1450px;
+    height: 80px;
+}
+
+#block-header1{
+    width: 598px;
+    float: left;
+    height: 50px;
+}
+#block-header1 h3{
+    font: 30px sans-serif;
+    margin-left: 15px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #513e5c;
+}
+#block-header1 p{
+    margin-left: 15px;
+    margin-top: 10px;
+}
+#block-header1 a{
+    font: 20px sans-serif;
+    color:  #11110f;
+}
+#block-header2{
+    width: 598px;
+    float: right;
+    height: 50px;
+}
+#block-header2 p{
+    margin-top: 10px;
+    margin-right: 10px;
+    font: 25px sans-serif;
+    color: #11110f;
+}
+#block-header2 a{
+    font: 25px sans-serif;
+    text-decoration: none;
+    color: #513e5c;
+}
+#block-header2 a:hover{
+    text-decoration: underline;
+    cursor: pointer
+}
+#block-header2 span{
+    border-bottom: 2px #11110f;
+}
+
+#block-header3{
+    width: 1450px;
+    float: right;
+    height: 25px;
+}
+
+#block-header3 p{
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    font: 16px sans-serif;
+    color: #11110f;
+}
+
+#online_but{
+    width: 360px;
+    height: 12px;
+    color: #a887bf;
+    font: 20px sans-serif;
+    padding-bottom: 10px;
+    border: 2px solid #d1b9e5;
+    border-radius: 5px;
+    margin-left: 15px;
+    padding-left: 7px;
+    background: #e0e0e5;
+}
+
+#pusto{
+    height: 10px;
+}
+
+#block-body_1{
+    width: 1450px;
+    height: auto;
+    margin: 5px auto;
+    background-color: white;
+    border: 3px solid #c7aabc;
+}
+
+#left-nav{
+    width: 300px;
+    height: auto;
+    min-height: 200px;
+    position: absolute;
+}
+#left-nav ul{
+    margin-top: 5px;
+}
+#left-nav li{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #c7aabc;
+    list-style-type: none;
+    margin-right: 15px;
+}
+#left-nav a{
+    font: 20px sans-serif;
+    text-decoration: none;
+    color: #02334a;
+}
+#left-nav a:hover{
+    text-decoration: underline;
+}
+
+#block-content{
+    width: 1140px;
+    min-height: 500px;
+    height: auto;
+    margin-left: 305px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border-left: 2px solid #c7aabc;
+    overflow:auto
+}
+
+#block-parameters{
+    width: 1140px;
+    height: 40px;
+    background-color: #c7aabc;
+}
+
+#title-page{
+    font: 20px sans-serif;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-left: 10px;
+    position: absolute;
+    color: #02334a;
+}
+
+/*стили для таблицы пользователй*/
+#block-content table {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    text-align: center;
+    border-collapse: separate;
+    border-spacing: 5px;
+    background: #c2d2e9;
+    color: #253532;
+    border: 16px solid  #c2d2e9;
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-top: 10px;
+    width: 85%;
+}
+
+#block-content th {
+    font-size: 18px;
+    padding: 10px;
+}
+
+#block-content td {
+   background: #dde8f0;
+   padding: 10px;
+}
+
+/*стили для регистрации*/
+
+#block-form-registration {
+    height: auto;
+}
+
+.input-data {
+    margin-top: 30px;
+    list-style-type: none;
+}
+
+.input-data > li {
+    list-style-type: none;
+    margin-top: 10px;
+}
+
+.input-data > li > input {
+    width: 350px;
+    height: 30px;
+    border-radius: 5px;
+    border: 2px solid silver;
+    margin-left: 300px;
+    padding-left: 5px;
+    font: 16px sans-serif;
+    color: #513e5c;
+}
+
+.input-data > li > select {
+    width: 350px;
+    height: 30px;
+    border-radius: 5px;
+    border: 2px solid silver;
+    margin-left: 300px;
+    padding-left: 5px;
+    font: 16px sans-serif;
+    color: #513e5c;
+}
+
+.input-data >li > label {
+    position: absolute;
+    font: 16px sans-serif;
+    color: #02334a;
+    margin-top: 5px;
+}
+.star {
+    font: 20px sans-serif;
+    color: #84182e;
+    position: absolute;
+    margin-left: 288px;
+    margin-top: 10px;
+}
+
+#button-reg {
+    width: 150px;
+    height: 50px;
+    margin-top: 10px;
+    margin-right: 30px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-size:16px;
+    font-family: SansSerif, sans-serif;
+    color: #513e5c;
+    background-color: #c7aabc;
+    border: #c7aabc;
+    cursor: pointer;
+}
+
+#button-reg:hover {
+    background-color: #513e5c; /* Green */
+    color: #c7aabc;
+    border: #513e5c;
+}
+
+#status_student{
+    display:none;
+}
+
+#status_admin{
+    display:none;
+}
+
+#status_professor{
+    display:none;
+}
+
+#status {
+    font: 20px sans-serif;
+    color: #02334a;
+    margin-left: 20px;
+}
+
+.status-reg {
+    height: 50px;
+}
+
+.statusy {
+    display: inline-block;
+    width: 30%;
+    font: 16px sans-serif;
+    color: #02334a;
+    margin-left: 20px;
+}
+/*стили для распиания звонков*/
+#block-content_1{
+    width: 1140px;
+    min-height: 500px;
+    height: auto;
+    margin-left: 305px;
+    margin-top: 5px;
+    border-left: 2px solid #c7aabc;
+}
+
+#block-content_1 table {
+    margin-left: 40px;
+    margin-top: 10px;
+    border: 1px solid grey;
+    width: 90%;
+    border-collapse: collapse;
+}
+
+#block-content_1 th {
+    border: 1px solid grey;
+}
+
+#block-content_1 td {
+    border: 1px solid grey;
+}
+
+#block-content_1 th, td {
+    padding: 10px 15px;
+}
+
+#ii {
+    font-size:18px;
+    font-weight: bold;
+    font-family: SansSerif, sans-serif;
+    color: #513e5c;
+    background-color: #b8e3ea;
+}
+
+#iii {
+    font-size:16px;
+    font-style: italic;
+    font-family: SansSerif, sans-serif;
+    color: #513e5c;
+    background-color: #b8e3ea;
+}
+
+#edit {
+    margin-top: 2px;
+    margin-right: 2px;
+}
+
+/*Стили для расписания звонков*/
+.title-call{
+    font-size: 20px;
+    font-family: Franklin Gothic Medium, sans-serif;
+    margin-right: 20px;
+    color: #02334a;
+    cursor: pointer;
+}
+
+#top-call {
+    margin-top: 10px;
+}
+
+#top-call > a#active-button{
+    color: #535d69;
+    margin-top: 15px;
+}
+
+#block-top-call {
+    border: 2px solid silver;
+    width: 500px;
+    height: auto;
+    margin-top: 5px;
+    margin-left: 200px;
+    background-color: #e4e1eb;
+    position: absolute;
+    z-index: 99999;
+    display: none;
+    border-radius: 5px;
+}
+
+#block-top-call table{
+    margin: 20px;
+    border: 2px solid grey;
+    width: 92%;
+    border-collapse: collapse;
+    font-size:16px;
+    font-family: SansSerif, sans-serif;
+    text-align: center;
+}
+
+#block-top-call th {
+    border: 2px solid grey;
+}
+
+#block-top-call td {
+    border: 2px solid grey;
+}
+
+#block-top-call th, td {
+    padding: 10px 15px;
+}
+
+/*стили для таблицы расписания*/
+#block-content_3{
+    width: 1140px;
+    height: auto;
+    margin-left: 305px;
+    margin-top: 5px;
+    border-left: 2px solid #c7aabc;
+}
+
+#timetable_read_1 table {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    text-align: center;
+    border-collapse: collapse;
+    border-spacing: 5px;
+    background: #E1E3E0;
+    border-radius: 20px;
+    margin: 25px;
+    width: 70%;
+}
+
+#timetable_read_1 th {
+    font-size: 22px;
+    font-weight: 300;
+    padding: 12px 10px;
+    border-bottom: 2px solid #F56433;
+    color:#F56433;
+}
+
+#timetable_read_1 td {
+    padding: 10px;
+    color:#513e5c;
+    border-left: 2px solid #F56433;
+    border-top: 2px solid #F56433;
+}
+
+#timetable_read_1 table td:first-child {
+    border-left: none;
+}
+
+#timetable_read_1 tbody td:nth-child(2) {
+    border-right: 2px solid #F56433;
+}
+
+#timetable_read_1 tbody tr:nth-child(-n+7) {
+    border-bottom: 2px solid #F56433;
+}
+
+
+#dis{
+    width: 20px;
+    height: 20px;
+}
+
+/*Стили для Внесения расписания кабинета */
+#office1 {
+    display: none;
+}
+
+#office1 > li {
+    list-style-type: none;
+    margin-top: 10px;
+}
+
+#office1 > li > input {
+    width: 350px;
+    height: 30px;
+    border-radius: 5px;
+    border: 2px solid silver;
+    margin-left: 300px;
+    padding-left: 5px;
+    font: 16px sans-serif;
+    color: #513e5c;
+}
+
+#office1 > li > select {
+    width: 350px;
+    height: 30px;
+    border-radius: 5px;
+    border: 2px solid silver;
+    margin-left: 300px;
+    padding-left: 5px;
+    font: 16px sans-serif;
+    color: #513e5c;
+}
+
+#office1 >li > label {
+    position: absolute;
+    font: 16px sans-serif;
+    color: #02334a;
+    margin-top: 5px;
+}
+
+/*Стили для главной страницы студента*/
+#foto{
+    margin-left: 100px;
+    margin-top: 30px;
+    width: 250px;
+    height: 350px;
+    float: left;
+}
+
+#cont{
+    margin-right: 100px;
+    margin-top: 15px;
+    width: 600px;
+    height: 400px;
+    float: right;
+}
+
+#textiBD{
+    font-size:16px;
+    font-family: SansSerif, sans-serif;
+    color: #513e5c;
+}
+
+#textiBD table{
+    width: 550px;
+    word-wrap: break-word;
+}
+
+#textiBD table tr {
+    border-style:hidden;
+}
+
+#textiBD table td {
+    border-style:hidden;
+}
+
+#timetable_read{
+    margin-bottom: 20px;
+}
+
+/*Календарь*/
+
+.title-calendar{
+    font-size: 20px;
+    font-family: Franklin Gothic Medium, sans-serif;
+    margin-right: 30px;
+    color: #02334a;
+    cursor: pointer;
+}
+
+#top-calendar {
+    margin-top: 10px;
+}
+
+#top-calendar > a#active-button{
+    color: #535d69;
+    margin-top: 15px;
+}
+
+#calendar {
+    border: 2px solid #16675e;
+    width: 300px;
+    height: 350px;
+    margin-left: 200px;
+    margin-top: 10px;
+    background-color: #b9e8f0;
+    position: absolute;
+    z-index: 99999;
+    display: none;
+    font-family: "Quicksand", sans-serif;
+    font-size: 95%;
+}
+.block-calendar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.calendar_div{
+    width: 260px;
+    height: 285px;
+    background-color: #92e2e9;
+}
+
+.block-mounth{
+    width: 230px;
+    height: 50px;
+    background-color: #59b8ba;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 15px;
+    text-align: center;
+}
+
+.block-mounth i{
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.block-mounth h1{
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.block-mounth p{
+    font-size: 14px;
+}
+
+.block-weekdays{
+    width: 260px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.block-weekdays div{
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    width: calc(250px/7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.block-days {
+    width: 260px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2px;
+}
+
+.block-days div{
+    font-size: 14px;
+    margin: 1px;
+    width: calc(235px/7);
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.block-days div:hover:not(.today_1){
+    border: 0.5px solid #777;
+    cursor: pointer;
+}
+
+.prev-days, .next-date{
+    opacity: 0.5;
+}
+
+.today_1{
+    background-color: #59b8ba;
+}
+
+#select_days{
+    cursor: pointer;
+    width: 100px;
+    height: 25px;
+    background-color: #59b8ba;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-left: 25px;
+}
+
+/*Стиля для отчета по дистанционным занятиям */
+
+.title-repos{
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Segoe UI", sans-serif;
+    margin-left: 20px;
+}
+
+.title-repos a{
+    text-decoration: none;
+    color: #252b31;
+}
+
+.title-repos a:hover{
+    color: #5e6668;
+}
+
+#repos_dis {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+   text-align: left;
+   border-collapse: separate;
+   border-spacing: 5px;
+   background: #d5ddef;
+   color: #253532;
+   border: 16px solid  #d5ddef;
+   border-radius: 20px;
+   margin-left: 25px;
+}
+
+.ff{
+   font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+   text-align: center;
+   border-collapse: separate;
+   border-spacing: 5px;
+   background: #d5ddef;
+   color: #253532;
+   border: 1px solid  #d5ddef;
+   margin-left: 25px;
+}
+
+#repos_dis td{
+    font-size: 12px;
+    padding: 10px;
+}
+
+#button-write {
+    width: 150px;
+    height: 50px;
+    margin-top: 10px;
+    margin-right: 30px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-size:16px;
+    font-family: SansSerif, sans-serif;
+    color: #513e5c;
+    background-color: #c7aabc;
+    border: #c7aabc;
+    cursor: pointer;
+}
+
+#button-write:hover {
+    background-color: #513e5c; /* Green */
+    color: #c7aabc;
+    border: #513e5c;
+}
+
+#choice-date{
+    margin: 10px;
+    height: 100px;
+    width: 500px;
+}
+
+#ch{
+    font: 20px sans-serif;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-left: 10px;
+    position: absolute;
+    color: #02334a;
+}
+
+.oice{
+    font: 20px sans-serif;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 10px;
+    position: absolute;
+    color: #02334a;
+    display: inline;
+}
+
+#date-cho {
+    border-radius: 5px;
+    width: 250px;
+    height: 30px;
+    border: 1px solid #02334a;
+    font: 16px sans-serif;
+}
+
+#date-cho1 {
+    border-radius: 5px;
+    width: 250px;
+    height: 30px;
+    border: 1px solid #02334a;
+    font: 16px sans-serif;
+}
+
+
+.link-para {
+    text-decoration: none;
+    color: #02334a;
+    font: 18px sans-serif;
+    font-weight: bold;
+}
+
+#choose-date {
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#block-content-4{
+    width: 1140px;
+    min-height: 500px;
+    height: auto;
+    margin-left: 305px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border-left: 2px solid #c7aabc;
+    overflow:auto
+}
+
+#out {
+    text-align: center;
+}
+
+/*Стили для отчета по каждому преподу*/
+#block-table-report table {
+    overflow:hidden;
+    border:1px solid #d3d3d3;
+    background:#fefefe;
+    font-size: 16px;
+    width:75%;
+    margin:5% auto 0;
+    -moz-border-radius:5px; /* FF1+ */
+    -webkit-border-radius:5px; /* Saf3-4 */
+    border-radius:5px;
+    -moz-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+}
+
+#block-table-report th, td {
+    padding:15px 25px 15px;
+    text-align:center;
+    font-size: 16px;
+}
+
+#block-table-report th {
+    padding-top:15px;
+    text-shadow: 1px 1px 1px #fff;
+    background:#e8eaeb;
+}
+
+#block-table-report td {
+    border-top:1px solid #e0e0e0;
+    border-right:1px solid #e0e0e0;
+}
+
+#block-table-report tr.odd-row td {
+    background:#f6f6f6;
+}
+
+#block-table-report td.first, th.first {
+    text-align:left
+}
+
+#block-table-report td.last {
+    border-right:none;
+}
+
+#block-table-report td {
+    background: -moz-linear-gradient(100% 25% 90deg, #fefefe, #f9f9f9);
+    background: -webkit-gradient(linear, 0% 0%, 0% 25%, from(#f9f9f9), to(#fefefe));
+}
+
+#block-table-report tr.odd-row td {
+    background: -moz-linear-gradient(100% 25% 90deg, #f6f6f6, #f1f1f1);
+    background: -webkit-gradient(linear, 0% 0%, 0% 25%, from(#f1f1f1), to(#f6f6f6));
+}
+
+#block-table-report th {
+    background: -moz-linear-gradient(100% 20% 90deg, #e8eaeb, #ededed);
+    background: -webkit-gradient(linear, 0% 0%, 0% 20%, from(#ededed), to(#e8eaeb));
+}
+
+#block-table-report tr:first-child th.first {
+    -moz-border-radius-topleft:5px;
+    -webkit-border-top-left-radius:5px; /* Saf3-4 */
+}
+
+#block-table-report tr:first-child th.last {
+    -moz-border-radius-topright:5px;
+    -webkit-border-top-right-radius:5px; /* Saf3-4 */
+}
+
+#block-table-report tr:last-child td.first {
+    -moz-border-radius-bottomleft:5px;
+    -webkit-border-bottom-left-radius:5px; /* Saf3-4 */
+}
+
+#block-table-report tr:last-child td.last {
+    -moz-border-radius-bottomright:5px;
+    -webkit-border-bottom-right-radius:5px; /* Saf3-4 */
+}
+
+.itog{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: right;
+}
+
+.info-itog{
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#href-doc{
+    margin: 15px;
+    justify-content:space-around;
+    align-items:center;
+}
+
+#href-doc a{
+    font-size: 24px;
+    font-family: SansSerif, sans-serif;
+    color: #513e5c;
+    cursor: pointer;
+    display:inline-block;
+    padding: 10px;
+
+}
